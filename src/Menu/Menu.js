@@ -12,6 +12,7 @@ function Menu() {
         <li><Link to="/" role="button">Home</Link></li>
         <li><Link to="/about" role="button">About</Link></li>
         <li><Link to="/login" role="button">Login</Link></li>
+        <li><Link to="/register" role="button">Register</Link></li>
     </ul>
 </nav>
   );

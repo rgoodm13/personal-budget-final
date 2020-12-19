@@ -14,6 +14,7 @@ import HomePage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+import RegisterPage from './RegisterPage/RegisterPage';
 
 function App() {
   return (
@@ -30,10 +31,16 @@ function App() {
     <Route path="/login">
     <LoginPage/>
     </Route>
+
+    <Route path= "/register">
+      <RegisterPage/>
+    </Route>
     
     <Route path="/">
     <HomePage/>
     </Route>
+
+   
 
       </Switch>
       </div>
